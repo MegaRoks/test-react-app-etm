@@ -5,7 +5,7 @@ export const products = [
         vendor: 'ABB',
         pack: 100,
         price: 1500,
-        image: '',
+        image: 'https://elbuz.com/image/data/eg_products/news/stoymat.jpg',
     },
     {
         id: '00002',
@@ -13,7 +13,7 @@ export const products = [
         vendor: 'ABB',
         pack: 100,
         price: 1500,
-        image: '',
+        image: 'https://s3.eu-central-1.amazonaws.com/jumper-cloud/67451254/files/image-20200729211603-20.png',
     },
     {
         id: '00003',
@@ -21,7 +21,7 @@ export const products = [
         vendor: 'ABB',
         pack: 1,
         price: 6800,
-        image: '',
+        image: 'https://s3.eu-central-1.amazonaws.com/jumper-cloud/67451254/files/image-20200729211639-21.png',
     },
     {
         id: '00004',
@@ -29,7 +29,7 @@ export const products = [
         vendor: 'IEK',
         pack: 1,
         price: 1200,
-        image: '',
+        image: 'https://regkom77.ru/d/stroymat.png',
     },
     {
         id: '00005',
@@ -37,7 +37,7 @@ export const products = [
         vendor: 'DKC',
         pack: 1,
         price: 1200,
-        image: '',
+        image: 'https://domstrousam.ru/wp-content/uploads/2018/03/stroy.jpg',
     },
     {
         id: '00006',
@@ -45,7 +45,7 @@ export const products = [
         vendor: 'DKC',
         pack: 1,
         price: 350,
-        image: '',
+        image: 'https://md-eksperiment.org/images/posts/bf26a835-2b0a-4515-bcc7-835f6d671b1a.jpeg',
     },
     {
         id: '00007',
@@ -53,7 +53,7 @@ export const products = [
         vendor: 'DKC',
         pack: 1,
         price: 300,
-        image: '',
+        image: 'https://internet-magaziny-stroitelnyh-materialov.ru/image/data/istroy%20(1).jpg',
     },
     {
         id: '00008',
@@ -61,7 +61,7 @@ export const products = [
         vendor: 'Schneider Electric',
         pack: 1,
         price: 85,
-        image: '',
+        image: 'https://строим-с-нами.рф/uploads/posts/2017-08/1504095215_vidy-listovyh-stroitelnyh-materialov.jpg',
     },
     {
         id: '00009',
@@ -69,7 +69,7 @@ export const products = [
         vendor: 'Schneider Electric',
         pack: 1,
         price: 3800,
-        image: '',
+        image: 'https://www.ltbstroy.ru/uploads/files/images/glavnay/glavnay1(%D0%B0).jpg',
     },
     {
         id: '00010',
@@ -77,6 +77,6 @@ export const products = [
         vendor: 'Schneider Electric',
         pack: 1,
         price: 1859,
-        image: '',
+        image: 'https://homius.ru/wp-content/uploads/2018/03/miniatyura-39.jpg',
     },
 ];

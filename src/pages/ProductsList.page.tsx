@@ -1,18 +1,13 @@
 import React, { Fragment } from 'react';
 import { Container, makeStyles } from '@material-ui/core';
-import { RouteComponentProps } from 'react-router-dom';
 
 import { useProduct } from './../context/product/Product.context';
 import { ProductItemComponent } from './../components/ProductItem.component';
 import { HeaderComponent } from './../components/Header.component';
 
-interface IProductsListProps extends RouteComponentProps { }
-
-export const ProductListPage: React.FC<IProductsListProps> = ({ history }: IProductsListProps) => {
+export const ProductListPage: React.FC = () => {
     const classes = useStyles();
     const { productsList } = useProduct();
-
-    console.log(productsList);
 
     return (
         <Fragment>
