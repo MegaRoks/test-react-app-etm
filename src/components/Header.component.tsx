@@ -2,7 +2,7 @@ import React from 'react';
 import { AppBar, makeStyles, Toolbar, Typography } from '@material-ui/core';
 
 interface IHeader {
-    title: string;
+   readonly title: string;
 }
 
 export const HeaderComponent: React.FC<IHeader> = ({ title }: IHeader) => {
